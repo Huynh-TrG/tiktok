@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f864d3f3.css",
+    "main.js": "/static/js/main.12a1a667.js",
+    "static/js/787.dbe882f8.chunk.js": "/static/js/787.dbe882f8.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.0a32d3767a5e85a0cc5c62e196907a27.svg",
+    "static/media/clearIcon-solid.svg": "/static/media/clearIcon-solid.c8b2f293e61c043b17d708ec0643e7bc.svg",
+    "static/media/inBoxIcon.svg": "/static/media/inBoxIcon.92f20f8ff3b7d15e146e6e8562fd8ce9.svg",
+    "static/media/sendIcon.svg": "/static/media/sendIcon.77af983534d145705f51ff3eb5a9271b.svg",
+    "index.html": "/index.html",
+    "static/media/searchIcon.svg": "/static/media/searchIcon.be48d0b91747864fb72b880617703059.svg",
+    "static/media/plusIcon.svg": "/static/media/plusIcon.7c6878d937abb84fb75fb10bf5039f62.svg",
+    "static/media/xMarkIcon.svg": "/static/media/xMarkIcon.619c780eea1627cb07b858b2b9e98042.svg",
+    "static/media/fireIcon.svg": "/static/media/fireIcon.e7fde518e95a4bc97799904a044f7d3f.svg",
+    "static/media/clockIcon.svg": "/static/media/clockIcon.676b62c203cd9b9d52cbc9097dab721f.svg",
+    "main.f864d3f3.css.map": "/static/css/main.f864d3f3.css.map",
+    "main.12a1a667.js.map": "/static/js/main.12a1a667.js.map",
+    "787.dbe882f8.chunk.js.map": "/static/js/787.dbe882f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f864d3f3.css",
+    "static/js/main.12a1a667.js"
+  ]
+}
