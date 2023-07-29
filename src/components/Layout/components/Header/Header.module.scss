@@ -1,0 +1,245 @@
+.wrapper {
+  height: 60px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  padding-left: 16px;
+  padding-right: 24px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 42px;
+  width: 300px;
+}
+
+//Search
+.search {
+  height: 46px;
+  width: 500px;
+  background-color: #f1f1f2;
+  border-radius: 92px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+
+  input {
+    background-color: transparent;
+    font-size: 1.6rem;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    width: 391.17px;
+    caret-color: var(--primary);
+    height: 30px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+.search:hover {
+  outline: 1px solid #a6a6aa;
+}
+.search:hover .search-btn {
+  opacity: 1;
+  background-color: #e6e6e6;
+}
+.search-result {
+  width: 500px;
+}
+.clear {
+  position: relative;
+  margin: 0px 12px;
+
+  height: 16px;
+}
+.clear-icon {
+  width: 16px;
+  height: 16px;
+  visibility: hidden;
+}
+.loading {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
+  color: #a6a6aa;
+  visibility: hidden;
+}
+.search-btn {
+  width: 52px;
+  height: 46px;
+  padding: 11px 16px 11px 12px;
+  margin: -12px -16px -12px 0px;
+  background-color: transparent;
+  opacity: 0.4;
+  border-top-right-radius: 52px;
+  border-bottom-right-radius: 52px;
+}
+.spliter {
+  width: 1px;
+  height: 28px;
+  margin: -3px 0;
+  background: rgba(22, 24, 35, 0.12);
+}
+.search-btn-icon {
+  width: 24px;
+  height: 24px;
+}
+.popper-wrapper {
+  max-height: 304px;
+  overflow: hidden auto;
+}
+.recently-search,
+.trendy {
+  width: 100%;
+
+  p {
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 12px;
+    font-size: 1.7rem;
+  }
+}
+
+//actions
+.actions {
+  width: 263.47px;
+  height: 36px;
+  display: flex;
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+.upload {
+  display: flex;
+  align-items: center;
+  width: 111.47px;
+  height: 36px;
+  justify-content: space-around;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  border-radius: 2px;
+  padding: 0 16px;
+  font-size: 1.6rem;
+  background-color: transparent;
+  margin-right: 1px;
+}
+.upload:hover {
+  background-color: #f1f1f2;
+}
+.send {
+  background-color: transparent;
+  margin-left: 16px;
+  position: relative;
+}
+.send-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 2px;
+}
+.send:hover .send-desc {
+  display: block;
+}
+.send-desc {
+  position: absolute;
+  bottom: -46px;
+  left: -30px;
+  font-size: 1.5rem;
+  background-color: rgba(84, 84, 84, 0.92);
+  border-radius: 8px;
+  font-weight: 600;
+  line-height: 21px;
+  padding: 8px;
+  color: white;
+  width: 80px;
+  // pointer-events: none;
+  display: none;
+  &:hover {
+    cursor: text;
+  }
+
+  &::before {
+    content: '';
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(84, 84, 84, 0.92);
+    top: -20px;
+    left: 32px;
+    background-color: transparent;
+    position: absolute;
+  }
+}
+
+.inbox {
+  background-color: transparent;
+  margin-left: 16px;
+  margin-right: 2px;
+  position: relative;
+  &:hover .inbox-desc {
+    display: block;
+  }
+}
+.inbox-icon {
+  width: 32px;
+  height: 32px;
+}
+.inbox-counter {
+  background-color: var(--primary);
+  padding: 0px;
+  width: 29px;
+  height: 20px;
+  padding: 1px 1px 0px 0px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: -5px;
+  right: -11px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.inbox-desc {
+  position: absolute;
+  bottom: -46px;
+  left: -24px;
+  background-color: rgba(84, 84, 84, 0.92);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 21px;
+  padding: 8px;
+  color: white;
+  width: 78px;
+  &:hover {
+    cursor: text;
+  }
+  display: none;
+  &::before {
+    content: '';
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(84, 84, 84, 0.92);
+    top: -20px;
+    left: 30px;
+    background-color: transparent;
+    position: absolute;
+  }
+}
+.avt {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+  border-radius: 16px;
+
+  background-color: var(--primary);
+}
